@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class mahasiswa {
+class mahasiswa { //class mahasiswa mempunyai 3 variabel yang dimana digunakan untuk data 
 private:
     const int id;
     string nama;
