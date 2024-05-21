@@ -12,6 +12,12 @@ public:
     mahasiswa(int pid, string pnama, float pnilai) :id(pid), nama(pnama), nilai(pnilai) {
         //deklarasi
     }
+
+    ~mahasiswa() {
+        cout << "id    = " << id    << endl;
+        cout << "nama  = " << nama  << endl;
+        cout << "nilai = " << nilai << endl;
+    }
 };
 
 int main()
