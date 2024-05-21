@@ -7,5 +7,6 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    ibu varIbu = new ibu("dini");
+
 }
